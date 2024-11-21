@@ -93,7 +93,6 @@ const drone = (address, port) => {
   return {
     connect,
     disconnect,
-    setWifi,
     command,
   };
 };
